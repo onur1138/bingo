@@ -2,4 +2,4 @@
 
 # Bingo? Java Web-Application Entwicklung in der Cloud! 
 
-Der vollständige Source-Code zum Artikel in der c't. Start mit mvn clean install jetty:run
+Der vollständige Source-Code zum Artikel in der c't. Start mit `mvn clean install jetty:run`.
