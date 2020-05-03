@@ -2,4 +2,6 @@
 
 # Bingo? Java Web-Application Entwicklung in der Cloud! 
 
-Der vollständige Source-Code zum Artikel in der c't. Start mit `mvn clean install jetty:run`.
+Der vollständige Source-Code zum Artikel in der c't. 
+
+Start in gitpod mit `mvn clean install jetty:run`. Sourcecode-Änderungen werden nach dem Speichern einer Datei sofort berücksichtigt und beim erneuten Laden der App im Browser ausgeführt.

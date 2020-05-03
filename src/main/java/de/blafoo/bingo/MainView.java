@@ -56,7 +56,7 @@ public class MainView extends VerticalLayout implements ComponentEventListener<C
         // Name des Spielers
 		final TextField spieler = new TextField();
 		spieler.setPlaceholder(name);
-		spieler.setLabel("Name");
+		spieler.setLabel("Gib deinen Namen ein:");
 		spieler.addValueChangeListener(e -> {
 			name = e.getValue();
 		});
