@@ -30,7 +30,8 @@ public class BingoButton extends Button {
 		this.col = col;
 		this.row = row;
 
-		getElement().setAttribute("theme", "badge");
+        getElement().setAttribute("theme", "badge");
+        getElement().setAttribute("title", text);   // for mouseover
 		addThemeVariants(ButtonVariant.LUMO_LARGE);
 		
 		addClickListener(e -> {
