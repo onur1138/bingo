@@ -24,7 +24,11 @@ public class BingoModel {
 				"Global Player", "Kommunizieren", "Kunden-orientiert", "Target",
 				"Problematik", "Proaktiv", "Visionen", "Fokussieren", 
 				"Zielführend", "Bilateral", "Hut aufhaben", "Wertschätzend", "In die Speichen greifen"));
-	}
+
+		// Neue Liste
+		DATA.put("Vorlesungen", Arrays.asList(
+				"Klausur", "klausurrelevant", "Hausaufgabe", "Jetzt hier", "Botschaft"));
+            }
 	
 	public static List<String> getData(String key) {
 		return DATA.get(key);
